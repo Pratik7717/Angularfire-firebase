@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cloud-firebase-assignment": {
+      "hosting": {
+        "cloud-firebase-assignment": [
+          "cloud-firebase-assignment"
+        ]
+      }
+    }
+  }
+}

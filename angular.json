@@ -120,9 +120,16 @@
               "devServerTarget": "cloud-firebase-assignment:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "cloud-firebase-assignment"
+  "defaultProject": "cloud-firebase-assignment",
+  "cli": {
+    "analytics": "012548b7-c6c1-479a-ae18-b187cbd2ab79"
+  }
 }
