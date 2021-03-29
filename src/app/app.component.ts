@@ -9,9 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'cloud-firebase-assignment';
-  items: Observable<any[]>;
-  constructor(firestore: AngularFirestore) {
-    this.items = firestore.collection('Items').valueChanges();
-    console.log('items',this.items)
+  constructor() {
+
   }
 }
